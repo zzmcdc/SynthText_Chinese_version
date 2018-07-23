@@ -46,6 +46,9 @@ function predict_depth()
     for i = 1:N
         fprintf('%d of %d\n',i,N);
         imname = imnames{i};
+        if imname == '.'
+            continue
+        end
         imtype = 'outdoor';
         img = read_img_rgb(fullfile(opts.imdir,imname));
         if strcmp(imtype, 'outdoor')
@@ -105,5 +108,3 @@ function depth = get_depth(im_rgb,model,opts)
         depth(depth>1) = 1;
     end
 end
-
-predict_depth()
