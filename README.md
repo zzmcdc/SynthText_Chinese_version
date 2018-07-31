@@ -1,5 +1,7 @@
 # SynthText from Ankush
 
+I can no longer maintain this OCR and SynthText project because I change my research domain according to the requirement of my new affiliation.....Anyone want to hold this can tell me , I can give the master to you as long as you can really understand the code in details.
+
 Modify from https://github.com/ankush-me/SynthText.git to generate chinese character 
 
 My OS is Ubuntu opencv2.4 But I am not sure whether it can run on other OS
