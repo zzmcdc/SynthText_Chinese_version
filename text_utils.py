@@ -544,7 +544,7 @@ class TextSource(object):
                 for l in f.readlines():
                     line=l.strip()
                     line=line.decode('utf-8')
-                    #print line
+                    # print line
                     self.txt.append(line)
         random.shuffle(self.txt)          
         print len(self.txt)
